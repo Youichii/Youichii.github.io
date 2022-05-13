@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .profile img {
   margin: 15px auto;
   display: block;
-  width: 120px;
+  width: 200px;
   border: 8px solid #2c2f3f;
 }
 #header .profile h1 {
@@ -132,6 +132,11 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu {
   padding: 30px 0 0 0;
 }
+
+.img-fluid {
+  border-radius: 400px;
+}
+
 .nav-menu * {
   margin: 0;
   padding: 0;
@@ -198,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/nature.jpg") top center;
   background-size: cover;
 }
 #hero:before {
@@ -233,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid #81ec43;
 }
 @media (min-width: 1024px) {
   #hero {
