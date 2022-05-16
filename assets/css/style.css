@@ -466,6 +466,50 @@ section {
   margin: 50px 0 50px 100px;
 }
 
+.portfolio-activities div:hover {
+  background: #dadada;
+}
+
+.portfolio-activities .portfolio-item {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.portfolio-activities .portfolio-item .portfolio-item-img {
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+.portfolio-activities .portfolio-item .portfolio-item-img:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.portfolio-activities .portfolio-item .portfolio-item-img .portfolio-item-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+}
+.portfolio-activities .portfolio-item:hover .portfolio-item-img .portfolio-item-title {
+  opacity: 1;
+}
+
 .custom-table thead {
   border-bottom: 5px solid white;
 }
